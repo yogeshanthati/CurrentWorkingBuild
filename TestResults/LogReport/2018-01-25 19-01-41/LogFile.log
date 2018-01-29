@@ -1,0 +1,11 @@
+2018-01-25 19:05:16 INFO  Log:10 - Driver Intiallized
+2018-01-25 19:05:25 INFO  Log:10 - Driver Intiallized
+2018-01-25 19:05:26 INFO  Log:10 - Started HomePageImageNavigateTest
+2018-01-25 19:05:27 INFO  Log:10 - Started HomePageTestCase
+2018-01-25 19:06:03 INFO  Log:10 - Url Has Entered
+2018-01-25 19:06:03 INFO  Log:10 - Started HomePageImageNavigateTest
+2018-01-25 19:06:33 INFO  Log:10 - Endedcom.relevantcodes.extentreports.ExtentTest@37fb0bed
+2018-01-25 19:06:33 INFO  Log:10 - Started HomePageTestCase
+2018-01-25 19:06:50 INFO  Log:10 - Endedcom.relevantcodes.extentreports.ExtentTest@26df6e3a
+2018-01-25 19:07:01 INFO  Log:10 - Started LogInTest
+2018-01-25 19:07:51 INFO  Log:10 - Endedcom.relevantcodes.extentreports.ExtentTest@246f8b8b

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75170" started-at="2018-01-29T14:11:48Z" finished-at="2018-01-29T14:13:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75170" started-at="2018-01-29T14:11:48Z" finished-at="2018-01-29T14:13:03Z">
+      <class name="com.pa.qa.testcases.TestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5]" name="setUp" is-config="true" duration-ms="37741" started-at="2018-01-29T19:41:48Z" finished-at="2018-01-29T19:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="HomePageNavigateTest()[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5]" name="HomePageNavigateTest" duration-ms="24033" started-at="2018-01-29T19:42:26Z" finished-at="2018-01-29T19:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigateTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5]" name="getResult" is-config="true" duration-ms="2" started-at="2018-01-29T19:42:50Z" finished-at="2018-01-29T19:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageNavigateTest status=SUCCESS method=TestCases.HomePageNavigateTest()[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="HomePageTest()[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5]" name="HomePageTest" duration-ms="11841" started-at="2018-01-29T19:42:50Z" finished-at="2018-01-29T19:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5]" name="getResult" is-config="true" duration-ms="1" started-at="2018-01-29T19:43:02Z" finished-at="2018-01-29T19:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageTest status=SUCCESS method=TestCases.HomePageTest()[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pa.qa.testcases.TestCases@3f2a3a5]" name="tearDown" is-config="true" duration-ms="1474" started-at="2018-01-29T19:43:02Z" finished-at="2018-01-29T19:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pa.qa.testcases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
