@@ -1,14 +1,11 @@
 package com.pa.qa.base;
-
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.xml.DOMConfigurator;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -17,7 +14,7 @@ import com.pa.qa.reportlistener.Log4j;
 import com.pa.qa.util.Log;
 import com.pa.qa.util.Constants;
 import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.LogStatus;
+
 
 public abstract class TestBase extends Constants {	
 	public static Properties prop;

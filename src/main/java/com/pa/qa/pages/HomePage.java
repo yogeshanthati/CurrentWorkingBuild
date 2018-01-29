@@ -1,19 +1,18 @@
 package com.pa.qa.pages;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.pa.qa.base.TestBase;
-import com.pa.qa.util.Constants;
-import com.pa.qa.util.Log;
+
 import com.relevantcodes.extentreports.LogStatus;
 
 public class HomePage extends TestBase {

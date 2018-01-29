@@ -1,10 +1,10 @@
 package com.pa.qa.util;
 
-import java.util.ArrayList;
+
 
 import org.openqa.selenium.WebDriver;
 
-import com.pa.qa.pages.HomePage;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 

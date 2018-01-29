@@ -1,15 +1,15 @@
 package com.pa.qa.reportlistener;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
-import org.apache.log4j.xml.DOMConfigurator;
+
+
 
 import com.pa.qa.util.Constants;
+
 
 public class Log4j {
 	 public static void createLog() throws Exception{

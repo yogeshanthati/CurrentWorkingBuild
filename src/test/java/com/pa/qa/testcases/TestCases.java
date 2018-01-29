@@ -5,9 +5,6 @@ import java.io.IOException;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -42,7 +39,7 @@ public class TestCases
     	HomePage=new HomePage();
     	HomePage=HomePage.verifyNewArrivals();
     	SingleItemAddPage=HomePage.verifyNewArrivalsNavigation();	
-    	
+    	 Log.info("ended HomePageImageNavigateTest");
     }
     @Test(alwaysRun = true)
     public void HomePageTest()
@@ -52,6 +49,7 @@ public class TestCases
     	HomePage=new HomePage();
     	HomePage=HomePage.VerifyHomePageSlides();
     	HomePage=HomePage.verifyNewArrivals();
+    	Log.info("ended HomePageTestCase");
     }
     @Test( dataProvider="getLogInTestData",alwaysRun = true)
 	public  void LogInToApp(String uname, String pwd){
@@ -59,6 +57,7 @@ public class TestCases
 		 Constants.test =  Constants.extent.startTest("LogInToApp");
 		 MyAccountPageRegisterAndLogin=new MyAccountPageRegisterAndLogin();
 		MyAccountPageRegisterAndLogin	=MyAccountPageRegisterAndLogin.LogIn(uname, pwd);
+		 Log.info("ended LogInTest");
 	}
     
     
@@ -74,7 +73,7 @@ public class TestCases
             Constants.test.log(LogStatus.FAIL, "Snapshot below: " +  Constants.test.addScreenCapture(screenShotPath));
         }
         Constants.extent.endTest(Constants.test);
-        Log.info("Ended"+Constants.test);
+       
     }  
     @DataProvider
 	public Object[][] getLogInTestData(){
